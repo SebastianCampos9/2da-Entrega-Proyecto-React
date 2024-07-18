@@ -5,7 +5,7 @@ function ItemListContainer({greetings}) {
     //console.log(categorias) 
   return (
     <>
-    <h2>Productos</h2>
+    <h4>Productos</h4>
     <ul className="list-group">
     {categorias.map((category, index) =>
     
